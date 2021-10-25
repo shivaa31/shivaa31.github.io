@@ -7,8 +7,36 @@
   </head>
 
   <body>
-   <img src="p1.jpeg" style="object-fit: cover;"/>
-  <body bgcolor=#F0F0F0>
+
+    <style>
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.fixed-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.myimg {
+    height: inherit;
+}
+</style>
+
+<html>
+<body>
+    <div class="fixed-background">
+        <img src="p1.jpeg" class="myimg" />
+
+    
+    <body bgcolor=#F0F0F0>
     
     <section>
       <header itemscope itemtype="http://schema.org/Event">
